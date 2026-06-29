@@ -1,8 +1,8 @@
-# Odys DLL
+# furnitepl_synch
 
 ## Opis projektu
 
-Odys DLL to aplikacja integracyjna wspierająca obsługę procesów sprzedażowych związanych z platformą Allegro. Jej głównym zadaniem jest cykliczne pobieranie informacji o zdarzeniach sprzedażowych oraz synchronizacja tych danych z systemami wykorzystywanymi w organizacji.
+furnitepl_synch to aplikacja integracyjna wspierająca obsługę procesów sprzedażowych związanych z platformą Allegro. Jej głównym zadaniem jest cykliczne pobieranie informacji o zdarzeniach sprzedażowych oraz synchronizacja tych danych z systemami wykorzystywanymi w organizacji.
 
 Aplikacja działa w sposób automatyczny i została zaprojektowana tak, aby zapewnić aktualność danych operacyjnych potrzebnych do dalszej obsługi zamówień, rozliczeń oraz wybranych procesów posprzedażowych.
 
@@ -24,7 +24,7 @@ Rozwiązanie ogranicza potrzebę ręcznej obsługi części czynności integracy
 
 ## Zakres działania aplikacji
 
-Odys DLL odpowiada za realizację następujących procesów:
+furnitepl_synch odpowiada za realizację następujących procesów:
 
 ### 1. Synchronizacja danych zamówień
 Aplikacja pobiera informacje o zamówieniach oraz ich aktualnym stanie i przekazuje je dalej do wykorzystania w procesach operacyjnych. Obejmuje to zarówno rejestrację nowych danych, jak i uwzględnianie zmian pojawiających się po stronie platformy Allegro.
@@ -75,7 +75,7 @@ Aplikacja uwzględnia obsługę sytuacji wyjątkowych oraz rejestrowanie informa
 
 ## Charakter techniczny rozwiązania
 
-Odys DLL jest aplikacją zaplecza technicznego. Nie pełni roli interfejsu użytkownika ani systemu przeznaczonego do bezpośredniej obsługi przez użytkowników biznesowych. Jest elementem warstwy integracyjnej, odpowiedzialnym za wymianę i przetwarzanie danych pomiędzy platformą zewnętrzną a środowiskiem organizacji.
+furnitepl_synch jest aplikacją zaplecza technicznego. Nie pełni roli interfejsu użytkownika ani systemu przeznaczonego do bezpośredniej obsługi przez użytkowników biznesowych. Jest elementem warstwy integracyjnej, odpowiedzialnym za wymianę i przetwarzanie danych pomiędzy platformą zewnętrzną a środowiskiem organizacji.
 
 Projekt został przygotowany jako rozwiązanie realizujące zadania wsadowe i integracyjne, z naciskiem na stabilność działania oraz przewidywalność procesu synchronizacji.
 
@@ -95,4 +95,4 @@ Rozwiązanie wspiera organizację w codziennej obsłudze sprzedaży prowadzonej 
 
 ## Podsumowanie
 
-Odys DLL to wewnętrzne rozwiązanie integracyjne odpowiedzialne za automatyczne pobieranie i przetwarzanie danych związanych ze sprzedażą na Allegro. Projekt wspiera ciągłość procesów operacyjnych, zwiększa aktualność informacji i pomaga utrzymać sprawny przepływ danych pomiędzy platformą sprzedażową a systemami wykorzystywanymi w organizacji.
+furnitepl_synch to wewnętrzne rozwiązanie integracyjne odpowiedzialne za automatyczne pobieranie i przetwarzanie danych związanych ze sprzedażą na Allegro. Projekt wspiera ciągłość procesów operacyjnych, zwiększa aktualność informacji i pomaga utrzymać sprawny przepływ danych pomiędzy platformą sprzedażową a systemami wykorzystywanymi w organizacji.
